@@ -52,15 +52,16 @@ body {
   animation-duration: 3s;
   animation-fill-mode: both;
   animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
 
 /*// KEYFRAMES //*/
 
 @keyframes drive {
   from {
-    transform: translateX(200px);
+    transform: translateX(-200px);
   }
   to {
-    transform: translateX(1400px);
+    transform: translateX(2000px);
   }
 }
